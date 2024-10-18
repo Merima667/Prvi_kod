@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMS</title>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <hr>
+        <form action="/registration-form.php">
+         <label for="name1">Name</label>
+         <input type="text" name="Name" id="name1" required><br>
+         <br>
+         <label for="username1">Username</label>
+         <input type="text" name="Username" required><br>
+         <br>
+         <label for="email1">Email</label>
+         <input type="email" name="email1"><br>
+         <br>
+         <label for="password1">Password</label>
+         <input type="password" name="password1" required><br>
+         <br>
+         <label for="age1">Age</label>
+         <input type="number" name="age1" required><br>
+         <br>
+         <label for="phone1">Phone number</label>
+         <input type="tel" name="phone1" required><br>
+         <br>
+         <label for="gender1">Gender</label>
+        <select name="choice" id="gender1">
+            <option value="first">Female</option>
+            <option value="second">Male</option>
+        </select><br>
+        <br>
+        <button type="submit">Register</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMS</title>
+    </head>
+    <body>
+        <h2>Subscription Management Form</h2>
+        <hr>
+        <form action="/subscription-management-form.php" method="post">
+            <fieldset>
+                <legend>Details</legend>
+                <label for="email1"><b><u>Email:</u></b></label>
+            <input type="email" name="email1"><br>
+            <br>
+            <label for="link1"><b><u>Link:</u></b></label>
+            <input type="url" name="Link" id="link1"><br>
+            <br>
+            <label for="password1"><b><u>Password:</u></b></label>
+            <input type="password" name="Password" id="password1"><br>
+            <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Reasons for Ending Subscription</legend>
+                <label for="selection1"><b><u>Select Reason:</u></b></label>
+                <select name="choices" id="choice">
+                    <option value="BadQ">Bad quality</option>
+                    <option value="SSIze">Small Size</option>
+                    <option value="Other" selected>Other</option>
+                </select><br>
+                <br>
+                <br>
+                <label for="question"><i>Would yout use one of our other tools again?</i></label><br>
+                <br>
+                <input type="radio" name="Yes" id="yes" checked>
+                <label for="yes">Yes</label><br>
+                <input type="radio" name="No" id="no">
+                <label for="no">No</label><br>
+                <input type="radio" name="Maybe" id="maybe">
+                <label for="maybe">Maybe</label><br>
+                <br>
+            <label for="text1">Additional Comments:</label><br>
+            <br>
+            <textarea name="Text" id="text1" maxlength="1000">Your comments...</textarea>
+        </fieldset>
+            <br>
+            <br>
+            <button type="submit">
+                <img src="ibu.png" alt="submit" width="50" height="25">
+              </button>
+        </form>
+    </body>
+</html>
